@@ -1,0 +1,202 @@
+
+.ingeni_blaze_container {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	height: 300px;
+	margin: 0 auto 60px;
+}
+
+@media only screen and (min-width: 640px) {
+	.ingeni_blaze_container {
+		height: 350px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.ingeni_blaze_container {
+		height: 400px;
+	}
+}
+
+
+.blaze-slider, .blaze-container, .blaze-track-container, .blaze-track, .blaze_slide {
+	height: 100%;
+}
+
+/*
+.ingeni_blaze_inner {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	order: 2;
+	height: 300px;
+	max-height: 100vh;
+}
+
+.ingeni_blaze_container .ingeni_blaze_inner .ingeni_blaze {
+	height: 80%;
+	width: 100%;
+}
+*/
+
+/*
+.ingeni_blaze_container .blaze_slide {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  }
+*/
+.ingeni_blaze_container .blaze_slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.ingeni_blaze_container .controls {
+	display: flex;
+	height: 60px;
+	width: 100%;
+	bottom: 0;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.ingeni_blaze_container .controls button:focus {
+	background-color: inherit;
+	border-width: 0;
+}
+
+.ingeni_blaze_container .controls button.blaze-prev,
+.ingeni_blaze_container .controls button.blaze-next {
+	width: 50px;
+	height: 50px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	fill: #fff;
+	cursor: pointer;
+	border-width: 0;
+	background-color: inherit;
+	outline-style: none
+}
+
+.ingeni_blaze_container .controls button.blaze-prev {
+	border-right: 4px solid gray;
+	border-bottom: 4px solid gray;
+	width: 30px;
+	height: 30px;
+	transform: rotate(-225deg);
+	left: 15px;
+	order: 1;
+}
+
+.ingeni_blaze_container .controls button.blaze-next {
+	border-right: 4px solid gray;
+	border-bottom: 4px solid gray;
+	width: 30px;
+	height: 30px;
+	transform: rotate(-45deg);
+	right: 15px;
+	order: 3;
+}
+
+.arrow--disabled.keen-button-prev,
+.arrow--disabled.keen-button-next {
+	opacity: 0.5;
+}
+
+
+
+.blaze-pagination {
+	order: 2;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+.ingeni_blaze_container .blaze-prev,
+.ingeni_blaze_container .blaze-next {
+	width: 10%;
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	order: 1;
+}
+.ingeni_blaze_container .blaze-next {
+	order: 3;
+}
+
+.blaze-pagination button {
+	height: 15px;
+	width: 15px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: white;
+	color: white;
+	opacity: 0.5;
+	margin: 0 3px;
+	font-size: 0;
+}
+.blaze-pagination button.active {
+	opacity: 1;
+	border-color: black;
+	background-color: black;
+	color: black;
+
+}
+
+
+.blaze-wrapper .item {
+	height: 100%;
+	width: 100%;
+}
+
+.bg-item {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+}
+
+.title-layer {
+	display: none;
+}
+
+
+.ingeni_blaze_thumbs {
+	width: 100%;
+	height: 20%;
+	box-sizing: border-box;
+	padding: 10px 0;
+  }
+
+.ingeni_blaze_thumbs .blaze_slide {
+	width: 25%;
+	height: 100%;
+	opacity: 0.4;
+}
+
+.ingeni_blaze_thumbs .blaze_slide-thumb-active {
+	opacity: 1;
+}
+
+
+
+
+
